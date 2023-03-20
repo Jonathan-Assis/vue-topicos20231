@@ -4,6 +4,9 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
+import axios from 'axios';
+axios.defaults.baseURL = 'https://8080-jonathanass-springtopic-p7uc2yzygzz.ws-us90.gitpod.io/'
+
 import './assets/main.css'
 
 const app = createApp(App)
